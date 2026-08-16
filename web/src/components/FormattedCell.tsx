@@ -49,6 +49,29 @@ export function FormattedCell({ value, format }: { value: unknown; format?: Colu
     }
     case "status":
       return <span className="chip chip-spec">{text}</span>;
+    case "staleness": {
+      // Matches analysis/releases.py's staleness_bucket values exactly.
+      // A plain string on purpose, not derived from staleness_ratio here --
+      // that numeric column collapses both "never released" (Infinity) and
+      // "not enough history" (NaN) to the same JSON null, so the severity
+      // has to travel as its own field or the two are indistinguishable by
+      // the time this component ever sees them.
+      const tone: Record<string, string> = {
+        never_released: "chip-never",
+        overdue: "chip-overdue",
+        watch: "chip-watch",
+        on_pace: "chip-merged",
+        insufficient_history: "chip-none",
+      };
+      const label: Record<string, string> = {
+        never_released: "never released",
+        overdue: "overdue",
+        watch: "watch",
+        on_pace: "on pace",
+        insufficient_history: "not enough history",
+      };
+      return <span className={`chip ${tone[text] ?? "chip-none"}`}>{label[text] ?? text}</span>;
+    }
     case "flag":
       return <>{text === "true" || text === "True" ? "✓" : "—"}</>;
     case "presence": {

@@ -11,7 +11,16 @@
  * truth for the valid set. Keep the two lists in sync; a mismatch is a
  * compile-time error here and a test failure on the Python side.
  */
-export type ColumnFormat = "hip" | "date" | "link" | "evidence" | "status" | "flag" | "presence" | "number";
+export type ColumnFormat =
+  | "hip"
+  | "date"
+  | "link"
+  | "evidence"
+  | "status"
+  | "flag"
+  | "presence"
+  | "number"
+  | "staleness";
 
 export interface ColumnSpec {
   key: string;
