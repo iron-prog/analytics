@@ -333,10 +333,10 @@
  "issues_url": "https://github.com/hiero-hackers/analytics/issues",
  "wip": true,
  "version": "v1",
- "generated_at": "2026-09-16T14:09:18.177531+00:00",
+ "generated_at": "2026-09-21T15:46:50.835989+00:00",
  "provenance": {
   "git_sha": "9f04f1c",
-  "data_as_of": "2026-09-16T14:03:20.227819+00:00"
+  "data_as_of": "2026-09-21T15:41:41.291772+00:00"
  },
  "orgs": {
   "hiero-ledger": {
@@ -345,7 +345,7 @@
      "id": "profiles",
      "macro": "Contributors",
      "title": "All contributors",
-     "row_count": 1464,
+     "row_count": 1468,
      "path": "hiero-ledger/profiles.json"
     },
     {
@@ -436,7 +436,7 @@
      "id": "hip-evidence",
      "macro": "HIPs",
      "title": "Evidence (per PR)",
-     "row_count": 840,
+     "row_count": 841,
      "path": "hiero-ledger/hip-evidence.json"
     },
     {
@@ -901,7 +901,7 @@
      "download": {
       "name": "hip_adoption_funnel.csv",
       "path": "hiero-ledger/hip_adoption_funnel.csv",
-      "generated_at": "2026-09-16T14:08:37.831913+00:00"
+      "generated_at": "2026-09-21T15:46:12.958585+00:00"
      }
     },
     {
@@ -961,7 +961,7 @@
      "download": {
       "name": "hip_repo_engagement.csv",
       "path": "hiero-ledger/hip_repo_engagement.csv",
-      "generated_at": "2026-09-16T14:08:37.827660+00:00"
+      "generated_at": "2026-09-21T15:46:12.953610+00:00"
      }
     },
     {
@@ -1075,14 +1075,14 @@
         {
          "label": "1 month",
          "file": "charts/org/hiero-ledger/difficulty_by_repo_30d.png",
-         "width": 2091,
-         "height": 1969
+         "width": 2092,
+         "height": 1906
         },
         {
          "label": "Week",
          "file": "charts/org/hiero-ledger/difficulty_by_repo_7d.png",
          "width": 2093,
-         "height": 1593
+         "height": 1218
         }
        ],
        "note": "Open issues per repository, stacked by difficulty level. Each tab limits to issues labelled with a difficulty (or newly created) within its span; 'All time' is the whole open backlog and 'Unknown' = open issues not yet triaged. Wider spans are the closest view of a repo's accumulated triage debt.",
@@ -1140,7 +1140,7 @@
     "Contributors": [
      {
       "label": "contributors",
-      "value": 1464,
+      "value": 1468,
       "note": "Distinct people with any tracked activity in the organisation, all-time. The denominator for every percentage tile on this tab.",
       "methodology": [
        "Collect every tracked activity event: PRs opened, reviews, merges, issues opened, labels applied.",
