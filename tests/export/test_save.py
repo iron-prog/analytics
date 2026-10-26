@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import json
 from datetime import UTC, datetime
+from pathlib import Path
 
 import pandas as pd
 
@@ -62,7 +63,6 @@ def test_sidecar_records_a_zero_row_count(tmp_path):
 def test_output_sidecar_records_pipeline_source_fetch_times(tmp_path, monkeypatch):
     """A pipeline's output metadata records its source datasets' fetch times."""
     from hiero_analytics.data_sources import dataset_store
-    from hiero_analytics.provenance import dataset_fetched_at
     from hiero_analytics.data_sources.dataset_store import track_pipeline_datasets
 
     datasets_dir = tmp_path / "datasets"
