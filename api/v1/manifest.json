@@ -333,10 +333,10 @@
  "issues_url": "https://github.com/hiero-hackers/analytics/issues",
  "wip": true,
  "version": "v1",
- "generated_at": "2026-10-31T15:12:08.982595+00:00",
+ "generated_at": "2026-11-01T15:55:13.036598+00:00",
  "provenance": {
   "git_sha": "9f04f1c",
-  "data_as_of": "2026-10-26T15:55:17.254234+00:00"
+  "data_as_of": "2026-10-31T15:09:37.322900+00:00"
  },
  "orgs": {
   "hiero-ledger": {
@@ -345,7 +345,7 @@
      "id": "profiles",
      "macro": "Contributors",
      "title": "All contributors",
-     "row_count": 1509,
+     "row_count": 1515,
      "path": "hiero-ledger/profiles.json"
     },
     {
@@ -394,7 +394,7 @@
      "id": "teamrepo",
      "macro": "Governance",
      "title": "Team activity by repo",
-     "row_count": 2894,
+     "row_count": 2917,
      "path": "hiero-ledger/teamrepo.json"
     },
     {
@@ -436,7 +436,7 @@
      "id": "hip-evidence",
      "macro": "HIPs",
      "title": "Evidence (per PR)",
-     "row_count": 867,
+     "row_count": 868,
      "path": "hiero-ledger/hip-evidence.json"
     },
     {
@@ -685,7 +685,7 @@
         {
          "label": "Week",
          "file": "charts/org/hiero-ledger/maintainer_pipeline_by_repo_7d.png",
-         "width": 2176,
+         "width": 2284,
          "height": 1051
         }
        ],
@@ -901,7 +901,7 @@
      "download": {
       "name": "hip_adoption_funnel.csv",
       "path": "hiero-ledger/hip_adoption_funnel.csv",
-      "generated_at": "2026-10-31T15:11:06.735999+00:00"
+      "generated_at": "2026-11-01T15:54:17.696197+00:00"
      }
     },
     {
@@ -961,7 +961,7 @@
      "download": {
       "name": "hip_repo_engagement.csv",
       "path": "hiero-ledger/hip_repo_engagement.csv",
-      "generated_at": "2026-10-31T15:11:06.733325+00:00"
+      "generated_at": "2026-11-01T15:54:17.691266+00:00"
      }
     },
     {
@@ -1140,7 +1140,7 @@
     "Contributors": [
      {
       "label": "contributors",
-      "value": 1509,
+      "value": 1515,
       "note": "Distinct people with any tracked activity in the organisation, all-time. The denominator for every percentage tile on this tab.",
       "methodology": [
        "Collect every tracked activity event: PRs opened, reviews, merges, issues opened, labels applied.",
@@ -1195,7 +1195,7 @@
      },
      {
       "label": "completed a GFI %",
-      "value": "23%",
+      "value": "22%",
       "note": "The share of contributors who have merged a PR closing an onboarding (good-first-issue) ticket \u2014 the clearest signal that onboarding paths actually convert.",
       "methodology": [
        "Find merged PRs that closed an issue labelled as onboarding-friendly.",
@@ -1374,7 +1374,7 @@
         {
          "label": "Activity heatmap",
          "file": "charts/org/hiero-hackers/contributor_activity_heatmap.png",
-         "width": 1631,
+         "width": 1630,
          "height": 1856
         }
        ],
@@ -1607,7 +1607,7 @@
      },
      {
       "label": "completed a GFI %",
-      "value": "29%",
+      "value": "31%",
       "note": "The share of contributors who have merged a PR closing an onboarding (good-first-issue) ticket \u2014 the clearest signal that onboarding paths actually convert.",
       "methodology": [
        "Find merged PRs that closed an issue labelled as onboarding-friendly.",

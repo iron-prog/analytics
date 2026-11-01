@@ -47,22 +47,15 @@
    "repo": "hiero-sdk-java",
    "top_carrier": "mustafauzunn",
    "top_role": "maintainer",
-   "top_pct": 90,
+   "top_pct": 91,
    "top2_pct": 98
   },
   {
    "repo": "hiero-docs",
    "top_carrier": "deshmukhpranali",
    "top_role": "maintainer",
-   "top_pct": 88,
+   "top_pct": 89,
    "top2_pct": 100
-  },
-  {
-   "repo": "hiero-gradle-conventions",
-   "top_carrier": "jjohannes",
-   "top_role": "maintainer",
-   "top_pct": 87,
-   "top2_pct": 94
   },
   {
    "repo": "hiero-solo-action",
@@ -86,10 +79,17 @@
    "top2_pct": 100
   },
   {
+   "repo": "hiero-gradle-conventions",
+   "top_carrier": "jjohannes",
+   "top_role": "maintainer",
+   "top_pct": 85,
+   "top2_pct": 93
+  },
+  {
    "repo": "hiero-sdk-tck",
    "top_carrier": "fantomasa",
    "top_role": "maintainer",
-   "top_pct": 83,
+   "top_pct": 84,
    "top2_pct": 100
   },
   {
@@ -103,7 +103,7 @@
    "repo": "hiero-sdk-js",
    "top_carrier": "fantomasa",
    "top_role": "maintainer",
-   "top_pct": 76,
+   "top_pct": 75,
    "top2_pct": 100
   },
   {
@@ -117,22 +117,29 @@
    "repo": "hiero-enterprise-java",
    "top_carrier": "manishdait",
    "top_role": "maintainer",
-   "top_pct": 60,
+   "top_pct": 62,
    "top2_pct": 87
-  },
-  {
-   "repo": "hiero-improvement-proposals",
-   "top_carrier": "mgarbs",
-   "top_role": "maintainer",
-   "top_pct": 59,
-   "top2_pct": 75
   },
   {
    "repo": "hiero-cryptography",
    "top_carrier": "anthony-swirldslabs",
    "top_role": "maintainer",
    "top_pct": 58,
-   "top2_pct": 86
+   "top2_pct": 84
+  },
+  {
+   "repo": "hiero-improvement-proposals",
+   "top_carrier": "mgarbs",
+   "top_role": "maintainer",
+   "top_pct": 57,
+   "top2_pct": 74
+  },
+  {
+   "repo": "hiero-website",
+   "top_carrier": "danielmarv",
+   "top_role": "maintainer",
+   "top_pct": 48,
+   "top2_pct": 79
   },
   {
    "repo": "solo",
@@ -145,15 +152,8 @@
    "repo": "solo-docs",
    "top_carrier": "jan-milenkov",
    "top_role": "maintainer",
-   "top_pct": 48,
-   "top2_pct": 67
-  },
-  {
-   "repo": "hiero-website",
-   "top_carrier": "danielmarv",
-   "top_role": "maintainer",
    "top_pct": 47,
-   "top2_pct": 80
+   "top2_pct": 64
   },
   {
    "repo": "hiero-mirror-node",
@@ -166,28 +166,28 @@
    "repo": "hiero-sdk-python",
    "top_carrier": "manishdait",
    "top_role": "maintainer",
-   "top_pct": 40,
+   "top_pct": 41,
    "top2_pct": 58
   },
   {
    "repo": "hiero-json-rpc-relay",
    "top_carrier": "natanasow",
    "top_role": "maintainer",
-   "top_pct": 39,
+   "top_pct": 38,
    "top2_pct": 71
   },
   {
    "repo": "governance",
    "top_carrier": "jwagantall",
    "top_role": "maintainer",
-   "top_pct": 32,
-   "top2_pct": 53
+   "top_pct": 31,
+   "top2_pct": 54
   },
   {
    "repo": "hiero-block-node",
    "top_carrier": "jsync-swirlds",
    "top_role": "maintainer",
-   "top_pct": 22,
+   "top_pct": 21,
    "top2_pct": 39
   },
   {
@@ -199,37 +199,86 @@
   }
  ],
  "row_count": 24,
- "generated_at": "2026-10-31T15:09:46.400396+00:00",
+ "generated_at": "2026-11-01T15:52:49.282729+00:00",
  "stale": false,
  "periods": {
   "7d": [
    {
-    "repo": "solo",
-    "top_carrier": "jan-milenkov",
+    "repo": "hiero-sdk-java",
+    "top_carrier": "mustafauzunn",
     "top_role": "maintainer",
-    "top_pct": 79,
-    "top2_pct": 91
+    "top_pct": 96,
+    "top2_pct": 100
+   },
+   {
+    "repo": "hiero-mirror-node-explorer",
+    "top_carrier": "svienot",
+    "top_role": "maintainer",
+    "top_pct": 91,
+    "top2_pct": 100
+   },
+   {
+    "repo": "hiero-cryptography",
+    "top_carrier": "anthony-swirldslabs",
+    "top_role": "maintainer",
+    "top_pct": 61,
+    "top2_pct": 90
    },
    {
     "repo": "hiero-sdk-js",
     "top_carrier": "fantomasa",
     "top_role": "maintainer",
-    "top_pct": 55,
+    "top_pct": 60,
     "top2_pct": 100
+   },
+   {
+    "repo": "solo",
+    "top_carrier": "jan-milenkov",
+    "top_role": "maintainer",
+    "top_pct": 57,
+    "top2_pct": 79
+   },
+   {
+    "repo": "hiero-website",
+    "top_carrier": "danielmarv",
+    "top_role": "maintainer",
+    "top_pct": 52,
+    "top2_pct": 84
+   },
+   {
+    "repo": "hiero-sdk-python",
+    "top_carrier": "manishdait",
+    "top_role": "maintainer",
+    "top_pct": 48,
+    "top2_pct": 70
+   },
+   {
+    "repo": "hiero-json-rpc-relay",
+    "top_carrier": "valentinvpk",
+    "top_role": "committer",
+    "top_pct": 44,
+    "top2_pct": 75
    },
    {
     "repo": "hiero-mirror-node",
     "top_carrier": "steven-sheehy",
     "top_role": "maintainer",
-    "top_pct": 52,
-    "top2_pct": 78
+    "top_pct": 38,
+    "top2_pct": 56
+   },
+   {
+    "repo": "hiero-block-node",
+    "top_carrier": "alfredog87",
+    "top_role": "maintainer",
+    "top_pct": 23,
+    "top2_pct": 44
    },
    {
     "repo": "hiero-consensus-node",
-    "top_carrier": "abies",
+    "top_carrier": "joshmarinacci",
     "top_role": "committer",
-    "top_pct": 16,
-    "top2_pct": 30
+    "top_pct": 10,
+    "top2_pct": 19
    }
   ],
   "30d": [
@@ -248,18 +297,18 @@
     "top2_pct": 100
    },
    {
-    "repo": "hiero-mirror-node-explorer",
-    "top_carrier": "svienot",
-    "top_role": "maintainer",
-    "top_pct": 95,
-    "top2_pct": 100
-   },
-   {
     "repo": "hiero-sdk-java",
     "top_carrier": "mustafauzunn",
     "top_role": "maintainer",
-    "top_pct": 94,
-    "top2_pct": 98
+    "top_pct": 95,
+    "top2_pct": 99
+   },
+   {
+    "repo": "hiero-mirror-node-explorer",
+    "top_carrier": "svienot",
+    "top_role": "maintainer",
+    "top_pct": 93,
+    "top2_pct": 100
    },
    {
     "repo": "hiero-solo-action",
@@ -272,22 +321,15 @@
     "repo": "hiero-sdk-tck",
     "top_carrier": "fantomasa",
     "top_role": "maintainer",
-    "top_pct": 90,
+    "top_pct": 92,
     "top2_pct": 100
    },
    {
     "repo": "hiero-improvement-proposals",
     "top_carrier": "mgarbs",
     "top_role": "maintainer",
-    "top_pct": 83,
-    "top2_pct": 100
-   },
-   {
-    "repo": "hiero-sdk-js",
-    "top_carrier": "fantomasa",
-    "top_role": "maintainer",
-    "top_pct": 79,
-    "top2_pct": 100
+    "top_pct": 81,
+    "top2_pct": 97
    },
    {
     "repo": "hiero-ethereum-execution-spec-tests",
@@ -297,53 +339,67 @@
     "top2_pct": 100
    },
    {
+    "repo": "governance",
+    "top_carrier": "hendrikebbers",
+    "top_role": "maintainer",
+    "top_pct": 77,
+    "top2_pct": 86
+   },
+   {
+    "repo": "hiero-sdk-js",
+    "top_carrier": "fantomasa",
+    "top_role": "maintainer",
+    "top_pct": 77,
+    "top2_pct": 100
+   },
+   {
     "repo": "solo-docs",
     "top_carrier": "jan-milenkov",
     "top_role": "maintainer",
-    "top_pct": 74,
-    "top2_pct": 83
+    "top_pct": 65,
+    "top2_pct": 73
    },
    {
     "repo": "solo",
     "top_carrier": "jan-milenkov",
     "top_role": "maintainer",
-    "top_pct": 61,
-    "top2_pct": 76
+    "top_pct": 60,
+    "top2_pct": 77
    },
    {
     "repo": "hiero-cryptography",
     "top_carrier": "anthony-swirldslabs",
     "top_role": "maintainer",
-    "top_pct": 55,
-    "top2_pct": 89
-   },
-   {
-    "repo": "hiero-json-rpc-relay",
-    "top_carrier": "valentinvpk",
-    "top_role": "committer",
-    "top_pct": 48,
-    "top2_pct": 80
+    "top_pct": 59,
+    "top2_pct": 84
    },
    {
     "repo": "hiero-enterprise-java",
     "top_carrier": "manishdait",
     "top_role": "maintainer",
-    "top_pct": 47,
-    "top2_pct": 91
+    "top_pct": 55,
+    "top2_pct": 90
    },
    {
     "repo": "hiero-website",
     "top_carrier": "danielmarv",
     "top_role": "maintainer",
+    "top_pct": 49,
+    "top2_pct": 75
+   },
+   {
+    "repo": "hiero-json-rpc-relay",
+    "top_carrier": "valentinvpk",
+    "top_role": "committer",
     "top_pct": 46,
-    "top2_pct": 81
+    "top2_pct": 78
    },
    {
     "repo": "hiero-sdk-python",
     "top_carrier": "manishdait",
     "top_role": "maintainer",
     "top_pct": 39,
-    "top2_pct": 67
+    "top2_pct": 66
    },
    {
     "repo": "hiero-mirror-node",
@@ -357,14 +413,14 @@
     "top_carrier": "alfredog87",
     "top_role": "maintainer",
     "top_pct": 25,
-    "top2_pct": 44
+    "top2_pct": 45
    },
    {
     "repo": "hiero-consensus-node",
-    "top_carrier": "artemananiev",
-    "top_role": "maintainer",
-    "top_pct": 9,
-    "top2_pct": 18
+    "top_carrier": "imalygin",
+    "top_role": "committer",
+    "top_pct": 8,
+    "top2_pct": 15
    }
   ],
   "365d": [
@@ -379,7 +435,7 @@
     "repo": "hiero-docs",
     "top_carrier": "deshmukhpranali",
     "top_role": "maintainer",
-    "top_pct": 87,
+    "top_pct": 88,
     "top2_pct": 98
    },
    {
@@ -397,17 +453,17 @@
     "top2_pct": 97
    },
    {
-    "repo": "hiero-mirror-node-explorer",
-    "top_carrier": "svienot",
+    "repo": "heka-identity-platform",
+    "top_carrier": "alexandershenshin",
     "top_role": "maintainer",
     "top_pct": 84,
     "top2_pct": 99
    },
    {
-    "repo": "heka-identity-platform",
-    "top_carrier": "alexandershenshin",
+    "repo": "hiero-mirror-node-explorer",
+    "top_carrier": "svienot",
     "top_role": "maintainer",
-    "top_pct": 83,
+    "top_pct": 84,
     "top2_pct": 99
    },
    {
@@ -449,7 +505,7 @@
     "repo": "hiero-sdk-java",
     "top_carrier": "mustafauzunn",
     "top_role": "maintainer",
-    "top_pct": 70,
+    "top_pct": 71,
     "top2_pct": 84
    },
    {
@@ -492,21 +548,21 @@
     "top_carrier": "anthony-swirldslabs",
     "top_role": "maintainer",
     "top_pct": 55,
-    "top2_pct": 93
-   },
-   {
-    "repo": "hiero-enterprise-java",
-    "top_carrier": "manishdait",
-    "top_role": "maintainer",
-    "top_pct": 50,
-    "top2_pct": 81
+    "top2_pct": 91
    },
    {
     "repo": "hiero-sdk-tck",
     "top_carrier": "fantomasa",
     "top_role": "maintainer",
-    "top_pct": 50,
-    "top2_pct": 63
+    "top_pct": 52,
+    "top2_pct": 65
+   },
+   {
+    "repo": "hiero-enterprise-java",
+    "top_carrier": "manishdait",
+    "top_role": "maintainer",
+    "top_pct": 51,
+    "top2_pct": 81
    },
    {
     "repo": "hiero-sdk-python",
@@ -537,18 +593,18 @@
     "top2_pct": 71
    },
    {
-    "repo": "hiero-contracts",
-    "top_carrier": "jasuwienas",
-    "top_role": "committer",
-    "top_pct": 42,
-    "top2_pct": 78
-   },
-   {
     "repo": ".github",
     "top_carrier": "hendrikebbers",
     "top_role": "maintainer",
     "top_pct": 42,
     "top2_pct": 68
+   },
+   {
+    "repo": "hiero-contracts",
+    "top_carrier": "jasuwienas",
+    "top_role": "committer",
+    "top_pct": 42,
+    "top2_pct": 78
    },
    {
     "repo": "hiero-cli",
@@ -568,7 +624,7 @@
     "repo": "hiero-sdk-js",
     "top_carrier": "fantomasa",
     "top_role": "maintainer",
-    "top_pct": 38,
+    "top_pct": 39,
     "top2_pct": 66
    },
    {
@@ -579,6 +635,13 @@
     "top2_pct": 72
    },
    {
+    "repo": "hiero-website",
+    "top_carrier": "danielmarv",
+    "top_role": "maintainer",
+    "top_pct": 36,
+    "top2_pct": 68
+   },
+   {
     "repo": "solo-docs",
     "top_carrier": "deshmukhpranali",
     "top_role": "maintainer",
@@ -586,17 +649,10 @@
     "top2_pct": 58
    },
    {
-    "repo": "hiero-website",
-    "top_carrier": "danielmarv",
-    "top_role": "maintainer",
-    "top_pct": 35,
-    "top2_pct": 68
-   },
-   {
     "repo": "solo",
     "top_carrier": "jeromy-cannon",
     "top_role": "maintainer",
-    "top_pct": 35,
+    "top_pct": 34,
     "top2_pct": 65
    },
    {
@@ -610,7 +666,7 @@
     "repo": "hiero-block-node",
     "top_carrier": "jsync-swirlds",
     "top_role": "maintainer",
-    "top_pct": 29,
+    "top_pct": 28,
     "top2_pct": 49
    },
    {
