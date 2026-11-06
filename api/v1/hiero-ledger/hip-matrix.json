@@ -4,7 +4,7 @@
  "group": "Status & coverage",
  "title": "Implementation coverage matrix",
  "description": "Merged PRs referencing each HIP, per component \u2014 every spec in the inventory: specs hottest first (most referencing activity), untouched specs at the bottom. The governance column is each spec's lifecycle status \u2014 often the explanation for a blank row (a deferred or review-stage spec has no implementation yet by design). A dash means no PR reference was found: a lead to check, not proof the work is missing (older specs and the younger SDKs are especially prone to missing references). Click a filled cell to list its PRs \u2014 every count is independently checkable. The long-format source ships as hip_repo_activity.csv alongside the wide download here.",
- "badge": "163 HIPs",
+ "badge": "165 HIPs",
  "source": "hip_repo_activity.csv",
  "row_header": "Governance",
  "note_header": "No SDK PRs found in",
@@ -711,13 +711,13 @@
     },
     {
      "key": "hiero-ledger/hiero-sdk-java",
-     "merged": 1,
-     "open": 1
+     "merged": 2,
+     "open": 0
     },
     {
      "key": "hiero-ledger/hiero-sdk-go",
-     "merged": 2,
-     "open": 1
+     "merged": 3,
+     "open": 0
     },
     {
      "key": "hiero-ledger/hiero-sdk-js",
@@ -1541,7 +1541,7 @@
    "cells": [
     {
      "key": "hiero-ledger/hiero-consensus-node",
-     "merged": 8,
+     "merged": 9,
      "open": 0
     },
     {
@@ -1951,7 +1951,7 @@
    "cells": [
     {
      "key": "hiero-ledger/hiero-consensus-node",
-     "merged": 7,
+     "merged": 8,
      "open": 0
     },
     {
@@ -2607,6 +2607,88 @@
    }
   },
   {
+   "key": 1535,
+   "label": "HIP-1535",
+   "sublabel": "CLPR \u2014 A Cross Ledger Protocol for Hiero",
+   "status": "Approved",
+   "cells": [
+    {
+     "key": "hiero-ledger/hiero-consensus-node",
+     "merged": 0,
+     "open": 0
+    },
+    {
+     "key": "hiero-ledger/hiero-mirror-node",
+     "merged": 0,
+     "open": 1
+    },
+    {
+     "key": "hiero-ledger/hiero-block-node",
+     "merged": 0,
+     "open": 0
+    },
+    {
+     "key": "hiero-ledger/hiero-sdk-java",
+     "merged": 0,
+     "open": 0
+    },
+    {
+     "key": "hiero-ledger/hiero-sdk-go",
+     "merged": 0,
+     "open": 1
+    },
+    {
+     "key": "hiero-ledger/hiero-sdk-js",
+     "merged": 0,
+     "open": 1
+    },
+    {
+     "key": "hiero-ledger/hiero-sdk-cpp",
+     "merged": 0,
+     "open": 0
+    },
+    {
+     "key": "hiero-ledger/hiero-sdk-rust",
+     "merged": 0,
+     "open": 0
+    },
+    {
+     "key": "hiero-ledger/hiero-sdk-swift",
+     "merged": 0,
+     "open": 0
+    },
+    {
+     "key": "hiero-ledger/hiero-sdk-python",
+     "merged": 0,
+     "open": 0
+    },
+    {
+     "key": "hiero-ledger/hiero-json-rpc-relay",
+     "merged": 0,
+     "open": 0
+    },
+    {
+     "key": "hiero-ledger/hiero-mirror-node-explorer",
+     "merged": 0,
+     "open": 0
+    },
+    {
+     "key": "hiero-ledger/solo",
+     "merged": 0,
+     "open": 0
+    },
+    {
+     "key": "hiero-ledger/hiero-local-node",
+     "merged": 0,
+     "open": 0
+    }
+   ],
+   "note": {
+    "kind": "none",
+    "text": "no SDK activity found"
+   }
+  },
+  {
    "key": 1424,
    "label": "HIP-1424",
    "sublabel": "Block and State Merkle Tree Hashing Scheme",
@@ -3017,6 +3099,96 @@
    }
   },
   {
+   "key": 540,
+   "label": "HIP-540",
+   "sublabel": "Change Or Remove Existing Keys From A Token",
+   "status": "Final",
+   "cells": [
+    {
+     "key": "hiero-ledger/hiero-consensus-node",
+     "merged": 1,
+     "open": 0
+    },
+    {
+     "key": "hiero-ledger/hiero-mirror-node",
+     "merged": 0,
+     "open": 1
+    },
+    {
+     "key": "hiero-ledger/hiero-block-node",
+     "merged": 0,
+     "open": 0
+    },
+    {
+     "key": "hiero-ledger/hiero-sdk-java",
+     "merged": 0,
+     "open": 0
+    },
+    {
+     "key": "hiero-ledger/hiero-sdk-go",
+     "merged": 1,
+     "open": 0
+    },
+    {
+     "key": "hiero-ledger/hiero-sdk-js",
+     "merged": 0,
+     "open": 0
+    },
+    {
+     "key": "hiero-ledger/hiero-sdk-cpp",
+     "merged": 0,
+     "open": 0
+    },
+    {
+     "key": "hiero-ledger/hiero-sdk-rust",
+     "merged": 0,
+     "open": 0
+    },
+    {
+     "key": "hiero-ledger/hiero-sdk-swift",
+     "merged": 0,
+     "open": 0
+    },
+    {
+     "key": "hiero-ledger/hiero-sdk-python",
+     "merged": 0,
+     "open": 0
+    },
+    {
+     "key": "hiero-ledger/hiero-json-rpc-relay",
+     "merged": 0,
+     "open": 0
+    },
+    {
+     "key": "hiero-ledger/hiero-mirror-node-explorer",
+     "merged": 0,
+     "open": 0
+    },
+    {
+     "key": "hiero-ledger/solo",
+     "merged": 0,
+     "open": 0
+    },
+    {
+     "key": "hiero-ledger/hiero-local-node",
+     "merged": 0,
+     "open": 0
+    }
+   ],
+   "note": {
+    "kind": "partial",
+    "text": "java \u00b7 js \u00b7 cpp \u00b7 rust \u00b7 swift \u00b7 python",
+    "items": [
+     "java",
+     "js",
+     "cpp",
+     "rust",
+     "swift",
+     "python"
+    ]
+   }
+  },
+  {
    "key": 1341,
    "label": "HIP-1341",
    "sublabel": "Support for Ethereum Pectra Release",
@@ -3106,8 +3278,8 @@
    "cells": [
     {
      "key": "hiero-ledger/hiero-consensus-node",
-     "merged": 1,
-     "open": 1
+     "merged": 2,
+     "open": 0
     },
     {
      "key": "hiero-ledger/hiero-mirror-node",
@@ -3680,178 +3852,6 @@
    }
   },
   {
-   "key": 540,
-   "label": "HIP-540",
-   "sublabel": "Change Or Remove Existing Keys From A Token",
-   "status": "Final",
-   "cells": [
-    {
-     "key": "hiero-ledger/hiero-consensus-node",
-     "merged": 1,
-     "open": 0
-    },
-    {
-     "key": "hiero-ledger/hiero-mirror-node",
-     "merged": 0,
-     "open": 0
-    },
-    {
-     "key": "hiero-ledger/hiero-block-node",
-     "merged": 0,
-     "open": 0
-    },
-    {
-     "key": "hiero-ledger/hiero-sdk-java",
-     "merged": 0,
-     "open": 0
-    },
-    {
-     "key": "hiero-ledger/hiero-sdk-go",
-     "merged": 1,
-     "open": 0
-    },
-    {
-     "key": "hiero-ledger/hiero-sdk-js",
-     "merged": 0,
-     "open": 0
-    },
-    {
-     "key": "hiero-ledger/hiero-sdk-cpp",
-     "merged": 0,
-     "open": 0
-    },
-    {
-     "key": "hiero-ledger/hiero-sdk-rust",
-     "merged": 0,
-     "open": 0
-    },
-    {
-     "key": "hiero-ledger/hiero-sdk-swift",
-     "merged": 0,
-     "open": 0
-    },
-    {
-     "key": "hiero-ledger/hiero-sdk-python",
-     "merged": 0,
-     "open": 0
-    },
-    {
-     "key": "hiero-ledger/hiero-json-rpc-relay",
-     "merged": 0,
-     "open": 0
-    },
-    {
-     "key": "hiero-ledger/hiero-mirror-node-explorer",
-     "merged": 0,
-     "open": 0
-    },
-    {
-     "key": "hiero-ledger/solo",
-     "merged": 0,
-     "open": 0
-    },
-    {
-     "key": "hiero-ledger/hiero-local-node",
-     "merged": 0,
-     "open": 0
-    }
-   ],
-   "note": {
-    "kind": "partial",
-    "text": "java \u00b7 js \u00b7 cpp \u00b7 rust \u00b7 swift \u00b7 python",
-    "items": [
-     "java",
-     "js",
-     "cpp",
-     "rust",
-     "swift",
-     "python"
-    ]
-   }
-  },
-  {
-   "key": 1535,
-   "label": "HIP-1535",
-   "sublabel": "CLPR \u2014 A Cross Ledger Protocol for Hiero",
-   "status": "Approved",
-   "cells": [
-    {
-     "key": "hiero-ledger/hiero-consensus-node",
-     "merged": 0,
-     "open": 0
-    },
-    {
-     "key": "hiero-ledger/hiero-mirror-node",
-     "merged": 0,
-     "open": 0
-    },
-    {
-     "key": "hiero-ledger/hiero-block-node",
-     "merged": 0,
-     "open": 0
-    },
-    {
-     "key": "hiero-ledger/hiero-sdk-java",
-     "merged": 0,
-     "open": 0
-    },
-    {
-     "key": "hiero-ledger/hiero-sdk-go",
-     "merged": 0,
-     "open": 0
-    },
-    {
-     "key": "hiero-ledger/hiero-sdk-js",
-     "merged": 0,
-     "open": 1
-    },
-    {
-     "key": "hiero-ledger/hiero-sdk-cpp",
-     "merged": 0,
-     "open": 0
-    },
-    {
-     "key": "hiero-ledger/hiero-sdk-rust",
-     "merged": 0,
-     "open": 0
-    },
-    {
-     "key": "hiero-ledger/hiero-sdk-swift",
-     "merged": 0,
-     "open": 0
-    },
-    {
-     "key": "hiero-ledger/hiero-sdk-python",
-     "merged": 0,
-     "open": 0
-    },
-    {
-     "key": "hiero-ledger/hiero-json-rpc-relay",
-     "merged": 0,
-     "open": 0
-    },
-    {
-     "key": "hiero-ledger/hiero-mirror-node-explorer",
-     "merged": 0,
-     "open": 0
-    },
-    {
-     "key": "hiero-ledger/solo",
-     "merged": 0,
-     "open": 0
-    },
-    {
-     "key": "hiero-ledger/hiero-local-node",
-     "merged": 0,
-     "open": 0
-    }
-   ],
-   "note": {
-    "kind": "none",
-    "text": "no SDK activity found"
-   }
-  },
-  {
    "key": 1522,
    "label": "HIP-1522",
    "sublabel": "Account Staking Configuration via the Hedera Account Service",
@@ -4344,6 +4344,88 @@
    }
   },
   {
+   "key": 410,
+   "label": "HIP-410",
+   "sublabel": "Wrapping Ethereum Transaction Bytes in a Hedera Transaction",
+   "status": "Final",
+   "cells": [
+    {
+     "key": "hiero-ledger/hiero-consensus-node",
+     "merged": 0,
+     "open": 0
+    },
+    {
+     "key": "hiero-ledger/hiero-mirror-node",
+     "merged": 0,
+     "open": 0
+    },
+    {
+     "key": "hiero-ledger/hiero-block-node",
+     "merged": 0,
+     "open": 0
+    },
+    {
+     "key": "hiero-ledger/hiero-sdk-java",
+     "merged": 0,
+     "open": 0
+    },
+    {
+     "key": "hiero-ledger/hiero-sdk-go",
+     "merged": 0,
+     "open": 0
+    },
+    {
+     "key": "hiero-ledger/hiero-sdk-js",
+     "merged": 0,
+     "open": 0
+    },
+    {
+     "key": "hiero-ledger/hiero-sdk-cpp",
+     "merged": 0,
+     "open": 0
+    },
+    {
+     "key": "hiero-ledger/hiero-sdk-rust",
+     "merged": 0,
+     "open": 0
+    },
+    {
+     "key": "hiero-ledger/hiero-sdk-swift",
+     "merged": 0,
+     "open": 0
+    },
+    {
+     "key": "hiero-ledger/hiero-sdk-python",
+     "merged": 0,
+     "open": 0
+    },
+    {
+     "key": "hiero-ledger/hiero-json-rpc-relay",
+     "merged": 1,
+     "open": 0
+    },
+    {
+     "key": "hiero-ledger/hiero-mirror-node-explorer",
+     "merged": 0,
+     "open": 0
+    },
+    {
+     "key": "hiero-ledger/solo",
+     "merged": 0,
+     "open": 0
+    },
+    {
+     "key": "hiero-ledger/hiero-local-node",
+     "merged": 0,
+     "open": 0
+    }
+   ],
+   "note": {
+    "kind": "none",
+    "text": "no SDK activity found"
+   }
+  },
+  {
    "key": 406,
    "label": "HIP-406",
    "sublabel": "Staking",
@@ -4684,6 +4766,170 @@
    "label": "HIP-1496",
    "sublabel": "Globally Synchronized Network Upgrade Process",
    "status": "Active",
+   "cells": [
+    {
+     "key": "hiero-ledger/hiero-consensus-node",
+     "merged": 0,
+     "open": 0
+    },
+    {
+     "key": "hiero-ledger/hiero-mirror-node",
+     "merged": 0,
+     "open": 0
+    },
+    {
+     "key": "hiero-ledger/hiero-block-node",
+     "merged": 0,
+     "open": 0
+    },
+    {
+     "key": "hiero-ledger/hiero-sdk-java",
+     "merged": 0,
+     "open": 0
+    },
+    {
+     "key": "hiero-ledger/hiero-sdk-go",
+     "merged": 0,
+     "open": 0
+    },
+    {
+     "key": "hiero-ledger/hiero-sdk-js",
+     "merged": 0,
+     "open": 0
+    },
+    {
+     "key": "hiero-ledger/hiero-sdk-cpp",
+     "merged": 0,
+     "open": 0
+    },
+    {
+     "key": "hiero-ledger/hiero-sdk-rust",
+     "merged": 0,
+     "open": 0
+    },
+    {
+     "key": "hiero-ledger/hiero-sdk-swift",
+     "merged": 0,
+     "open": 0
+    },
+    {
+     "key": "hiero-ledger/hiero-sdk-python",
+     "merged": 0,
+     "open": 0
+    },
+    {
+     "key": "hiero-ledger/hiero-json-rpc-relay",
+     "merged": 0,
+     "open": 0
+    },
+    {
+     "key": "hiero-ledger/hiero-mirror-node-explorer",
+     "merged": 0,
+     "open": 0
+    },
+    {
+     "key": "hiero-ledger/solo",
+     "merged": 0,
+     "open": 0
+    },
+    {
+     "key": "hiero-ledger/hiero-local-node",
+     "merged": 0,
+     "open": 0
+    }
+   ],
+   "note": {
+    "kind": "none",
+    "text": "no activity found"
+   }
+  },
+  {
+   "key": 1495,
+   "label": "HIP-1495",
+   "sublabel": "Kubernetes-Native Consensus Node Deployment",
+   "status": "Approved",
+   "cells": [
+    {
+     "key": "hiero-ledger/hiero-consensus-node",
+     "merged": 0,
+     "open": 0
+    },
+    {
+     "key": "hiero-ledger/hiero-mirror-node",
+     "merged": 0,
+     "open": 0
+    },
+    {
+     "key": "hiero-ledger/hiero-block-node",
+     "merged": 0,
+     "open": 0
+    },
+    {
+     "key": "hiero-ledger/hiero-sdk-java",
+     "merged": 0,
+     "open": 0
+    },
+    {
+     "key": "hiero-ledger/hiero-sdk-go",
+     "merged": 0,
+     "open": 0
+    },
+    {
+     "key": "hiero-ledger/hiero-sdk-js",
+     "merged": 0,
+     "open": 0
+    },
+    {
+     "key": "hiero-ledger/hiero-sdk-cpp",
+     "merged": 0,
+     "open": 0
+    },
+    {
+     "key": "hiero-ledger/hiero-sdk-rust",
+     "merged": 0,
+     "open": 0
+    },
+    {
+     "key": "hiero-ledger/hiero-sdk-swift",
+     "merged": 0,
+     "open": 0
+    },
+    {
+     "key": "hiero-ledger/hiero-sdk-python",
+     "merged": 0,
+     "open": 0
+    },
+    {
+     "key": "hiero-ledger/hiero-json-rpc-relay",
+     "merged": 0,
+     "open": 0
+    },
+    {
+     "key": "hiero-ledger/hiero-mirror-node-explorer",
+     "merged": 0,
+     "open": 0
+    },
+    {
+     "key": "hiero-ledger/solo",
+     "merged": 0,
+     "open": 0
+    },
+    {
+     "key": "hiero-ledger/hiero-local-node",
+     "merged": 0,
+     "open": 0
+    }
+   ],
+   "note": {
+    "kind": "none",
+    "text": "no activity found"
+   }
+  },
+  {
+   "key": 1494,
+   "label": "HIP-1494",
+   "sublabel": "Consensus Node Deployment Package Specification",
+   "status": "Approved",
    "cells": [
     {
      "key": "hiero-ledger/hiero-consensus-node",
@@ -9682,88 +9928,6 @@
    }
   },
   {
-   "key": 410,
-   "label": "HIP-410",
-   "sublabel": "Wrapping Ethereum Transaction Bytes in a Hedera Transaction",
-   "status": "Final",
-   "cells": [
-    {
-     "key": "hiero-ledger/hiero-consensus-node",
-     "merged": 0,
-     "open": 0
-    },
-    {
-     "key": "hiero-ledger/hiero-mirror-node",
-     "merged": 0,
-     "open": 0
-    },
-    {
-     "key": "hiero-ledger/hiero-block-node",
-     "merged": 0,
-     "open": 0
-    },
-    {
-     "key": "hiero-ledger/hiero-sdk-java",
-     "merged": 0,
-     "open": 0
-    },
-    {
-     "key": "hiero-ledger/hiero-sdk-go",
-     "merged": 0,
-     "open": 0
-    },
-    {
-     "key": "hiero-ledger/hiero-sdk-js",
-     "merged": 0,
-     "open": 0
-    },
-    {
-     "key": "hiero-ledger/hiero-sdk-cpp",
-     "merged": 0,
-     "open": 0
-    },
-    {
-     "key": "hiero-ledger/hiero-sdk-rust",
-     "merged": 0,
-     "open": 0
-    },
-    {
-     "key": "hiero-ledger/hiero-sdk-swift",
-     "merged": 0,
-     "open": 0
-    },
-    {
-     "key": "hiero-ledger/hiero-sdk-python",
-     "merged": 0,
-     "open": 0
-    },
-    {
-     "key": "hiero-ledger/hiero-json-rpc-relay",
-     "merged": 0,
-     "open": 0
-    },
-    {
-     "key": "hiero-ledger/hiero-mirror-node-explorer",
-     "merged": 0,
-     "open": 0
-    },
-    {
-     "key": "hiero-ledger/solo",
-     "merged": 0,
-     "open": 0
-    },
-    {
-     "key": "hiero-ledger/hiero-local-node",
-     "merged": 0,
-     "open": 0
-    }
-   ],
-   "note": {
-    "kind": "none",
-    "text": "no activity found"
-   }
-  },
-  {
    "key": 405,
    "label": "HIP-405",
    "sublabel": "Fungible Token Metadata JSON Schema",
@@ -13563,6 +13727,6 @@
  ],
  "evidence_section": "hip-evidence",
  "macro": "HIPs",
- "generated_at": "2026-11-01T15:54:17.690382+00:00",
+ "generated_at": "2026-11-06T16:44:20.718501+00:00",
  "stale": false
 }
