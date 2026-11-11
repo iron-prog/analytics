@@ -21,10 +21,6 @@
    "status": false
   },
   {
-   "repo": "agentic-support-hiero",
-   "status": false
-  },
-  {
    "repo": "governance",
    "status": false
   },
@@ -129,8 +125,8 @@
    "status": true
   }
  ],
- "row_count": 28,
- "generated_at": "2026-11-06T16:45:25.027445+00:00",
+ "row_count": 27,
+ "generated_at": "2026-11-11T17:02:57.656179+00:00",
  "stale": false,
  "macro": "Security & scorecards"
 }

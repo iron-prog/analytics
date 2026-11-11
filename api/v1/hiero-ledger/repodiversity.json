@@ -183,6 +183,16 @@
    "organisations": "Hashgraph"
   },
   {
+   "repo": "hiero-agentic-support",
+   "maintainers": 1,
+   "distinct_orgs": 1,
+   "top_org": "Hashgraph",
+   "top_org_pct": 100,
+   "independent": 0,
+   "unknown": 0,
+   "organisations": "Hashgraph"
+  },
+  {
    "repo": "hiero-consensus-node",
    "maintainers": 16,
    "distinct_orgs": 2,
@@ -483,8 +493,8 @@
    "organisations": "Hashgraph, Linux Foundation, LimeChain, Hgraph, Hashgraph Online, 8bees, Hedera"
   }
  ],
- "row_count": 44,
- "generated_at": "2026-11-06T16:42:50.045952+00:00",
+ "row_count": 45,
+ "generated_at": "2026-11-11T17:00:36.990041+00:00",
  "stale": false,
  "macro": "Governance"
 }

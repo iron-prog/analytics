@@ -33,6 +33,10 @@
    "status": false
   },
   {
+   "repo": "hiero-agentic-support",
+   "status": false
+  },
+  {
    "repo": "hiero-did-sdk-js",
    "status": false
   },
@@ -193,8 +197,8 @@
    "status": true
   }
  ],
- "row_count": 44,
- "generated_at": "2026-11-06T16:43:12.021027+00:00",
+ "row_count": 45,
+ "generated_at": "2026-11-11T17:01:01.178298+00:00",
  "stale": false,
  "macro": "Security & scorecards"
 }
